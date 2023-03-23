@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08068C2029CA000B00673E04 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1729CA000B00673E04 /* Pretendard-Regular.otf */; };
+		08068C2129CA000B00673E04 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1829CA000B00673E04 /* Pretendard-Black.otf */; };
+		08068C2229CA000B00673E04 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1929CA000B00673E04 /* Pretendard-Medium.otf */; };
+		08068C2329CA000B00673E04 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1A29CA000B00673E04 /* Pretendard-Light.otf */; };
+		08068C2429CA000B00673E04 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1B29CA000B00673E04 /* Pretendard-ExtraBold.otf */; };
+		08068C2529CA000B00673E04 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1C29CA000B00673E04 /* Pretendard-Bold.otf */; };
+		08068C2629CA000B00673E04 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1D29CA000B00673E04 /* Pretendard-Thin.otf */; };
+		08068C2729CA000B00673E04 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1E29CA000B00673E04 /* Pretendard-ExtraLight.otf */; };
+		08068C2829CA000B00673E04 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1F29CA000B00673E04 /* Pretendard-SemiBold.otf */; };
+		0876568C29C89D8A00B5C8AF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0876568A29C89D8A00B5C8AF /* DetailView.swift */; };
+		0876568D29C89D8A00B5C8AF /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0876568B29C89D8A00B5C8AF /* DetailView.xib */; };
+		089BA4A129C6C11C00421736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089BA4A029C6C11C00421736 /* AppDelegate.swift */; };
+		089BA4A329C6C11C00421736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089BA4A229C6C11C00421736 /* SceneDelegate.swift */; };
+		089BA4A829C6C11C00421736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089BA4A629C6C11C00421736 /* Main.storyboard */; };
+		089BA4AA29C6C11E00421736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089BA4A929C6C11E00421736 /* Assets.xcassets */; };
+		089BA4AD29C6C11E00421736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089BA4AB29C6C11E00421736 /* LaunchScreen.storyboard */; };
+		08E62B7229C6FAE800A5880F /* TabBarMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B7129C6FAE800A5880F /* TabBarMainViewController.swift */; };
+		08E62B7529C6FB5800A5880F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B7329C6FB5800A5880F /* SearchView.swift */; };
+		08E62B7B29C703A600A5880F /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B7929C703A600A5880F /* SearchResultView.swift */; };
+		08E62B7C29C703A600A5880F /* SearchResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E62B7A29C703A600A5880F /* SearchResultView.xib */; };
+		08E62B8129C712D400A5880F /* RecentSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B7F29C712D400A5880F /* RecentSearchCell.swift */; };
+		08E62B8229C712D400A5880F /* RecentSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E62B8029C712D400A5880F /* RecentSearchCell.xib */; };
+		08E62B8A29C72EE600A5880F /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B8929C72EE600A5880F /* SearchResultModel.swift */; };
+		08E62B9029C7317A00A5880F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B8F29C7317A00A5880F /* NetworkManager.swift */; };
+		08E62B9329C733F400A5880F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B9229C733F400A5880F /* SearchViewModel.swift */; };
+		08E62B9529C7350900A5880F /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B9429C7350900A5880F /* Apis.swift */; };
+		08E62B9A29C75D1100A5880F /* SearchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B9829C75D1100A5880F /* SearchListCell.swift */; };
+		08E62B9B29C75D1100A5880F /* SearchListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E62B9929C75D1100A5880F /* SearchListCell.xib */; };
+		08E62B9E29C75D3700A5880F /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E62B9C29C75D3700A5880F /* SearchResultCell.swift */; };
+		08E62B9F29C75D3700A5880F /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08E62B9D29C75D3700A5880F /* SearchResultCell.xib */; };
+		AC0AF51FD807AC86E710C14B /* Pods_AppStore_KAKAOBANK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FF61C907801B1A3F02CFE /* Pods_AppStore_KAKAOBANK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08068C1729CA000B00673E04 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		08068C1829CA000B00673E04 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		08068C1929CA000B00673E04 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		08068C1A29CA000B00673E04 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		08068C1B29CA000B00673E04 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		08068C1C29CA000B00673E04 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		08068C1D29CA000B00673E04 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		08068C1E29CA000B00673E04 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		08068C1F29CA000B00673E04 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		0876568A29C89D8A00B5C8AF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0876568B29C89D8A00B5C8AF /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		089BA49D29C6C11C00421736 /* AppStore_KAKAOBANK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore_KAKAOBANK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089BA4A029C6C11C00421736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		089BA4A229C6C11C00421736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		089BA4A729C6C11C00421736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		089BA4A929C6C11E00421736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		089BA4AC29C6C11E00421736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		089BA4AE29C6C11E00421736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E62B7129C6FAE800A5880F /* TabBarMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarMainViewController.swift; sourceTree = "<group>"; };
+		08E62B7329C6FB5800A5880F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		08E62B7929C703A600A5880F /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		08E62B7A29C703A600A5880F /* SearchResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultView.xib; sourceTree = "<group>"; };
+		08E62B7F29C712D400A5880F /* RecentSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchCell.swift; sourceTree = "<group>"; };
+		08E62B8029C712D400A5880F /* RecentSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentSearchCell.xib; sourceTree = "<group>"; };
+		08E62B8929C72EE600A5880F /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
+		08E62B8F29C7317A00A5880F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		08E62B9229C733F400A5880F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		08E62B9429C7350900A5880F /* Apis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
+		08E62B9829C75D1100A5880F /* SearchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListCell.swift; sourceTree = "<group>"; };
+		08E62B9929C75D1100A5880F /* SearchListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchListCell.xib; sourceTree = "<group>"; };
+		08E62B9C29C75D3700A5880F /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		08E62B9D29C75D3700A5880F /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		1B3409481ABA94CFEF80DB10 /* Pods-AppStore_KAKAOBANK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore_KAKAOBANK.debug.xcconfig"; path = "Target Support Files/Pods-AppStore_KAKAOBANK/Pods-AppStore_KAKAOBANK.debug.xcconfig"; sourceTree = "<group>"; };
+		900FF61C907801B1A3F02CFE /* Pods_AppStore_KAKAOBANK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStore_KAKAOBANK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98A77730E31B6A2776D803D /* Pods-AppStore_KAKAOBANK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore_KAKAOBANK.release.xcconfig"; path = "Target Support Files/Pods-AppStore_KAKAOBANK/Pods-AppStore_KAKAOBANK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089BA49A29C6C11C00421736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0AF51FD807AC86E710C14B /* Pods_AppStore_KAKAOBANK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08068C1529C9FFC700673E04 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				08068C1629CA000B00673E04 /* Pretendard */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		08068C1629CA000B00673E04 /* Pretendard */ = {
+			isa = PBXGroup;
+			children = (
+				08068C1729CA000B00673E04 /* Pretendard-Regular.otf */,
+				08068C1829CA000B00673E04 /* Pretendard-Black.otf */,
+				08068C1929CA000B00673E04 /* Pretendard-Medium.otf */,
+				08068C1A29CA000B00673E04 /* Pretendard-Light.otf */,
+				08068C1B29CA000B00673E04 /* Pretendard-ExtraBold.otf */,
+				08068C1C29CA000B00673E04 /* Pretendard-Bold.otf */,
+				08068C1D29CA000B00673E04 /* Pretendard-Thin.otf */,
+				08068C1E29CA000B00673E04 /* Pretendard-ExtraLight.otf */,
+				08068C1F29CA000B00673E04 /* Pretendard-SemiBold.otf */,
+			);
+			path = Pretendard;
+			sourceTree = "<group>";
+		};
+		08552F4729CB2A1600AE542B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B7129C6FAE800A5880F /* TabBarMainViewController.swift */,
+				089BA4A629C6C11C00421736 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0876568829C89D5000B5C8AF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0876568929C89D6C00B5C8AF /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0876568929C89D6C00B5C8AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0876568A29C89D8A00B5C8AF /* DetailView.swift */,
+				0876568B29C89D8A00B5C8AF /* DetailView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		089BA49429C6C11C00421736 = {
+			isa = PBXGroup;
+			children = (
+				089BA49F29C6C11C00421736 /* AppStore_KAKAOBANK */,
+				089BA49E29C6C11C00421736 /* Products */,
+				B6C22100FA26701B38B45A3F /* Pods */,
+				7A274EB4131295F4E6417595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		089BA49E29C6C11C00421736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089BA49D29C6C11C00421736 /* AppStore_KAKAOBANK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089BA49F29C6C11C00421736 /* AppStore_KAKAOBANK */ = {
+			isa = PBXGroup;
+			children = (
+				089BA4A029C6C11C00421736 /* AppDelegate.swift */,
+				089BA4A229C6C11C00421736 /* SceneDelegate.swift */,
+				08552F4729CB2A1600AE542B /* Main */,
+				08E62B8E29C7315E00A5880F /* Network */,
+				08E62B7029C6F9F900A5880F /* Search */,
+				08E62B7829C7038A00A5880F /* SearchResult */,
+				0876568829C89D5000B5C8AF /* Detail */,
+				089BA4A929C6C11E00421736 /* Assets.xcassets */,
+				089BA4AB29C6C11E00421736 /* LaunchScreen.storyboard */,
+				089BA4AE29C6C11E00421736 /* Info.plist */,
+				08068C1529C9FFC700673E04 /* Font */,
+			);
+			path = AppStore_KAKAOBANK;
+			sourceTree = "<group>";
+		};
+		08E62B7029C6F9F900A5880F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B9129C733E100A5880F /* ViewModel */,
+				08E62B8829C72ED100A5880F /* Model */,
+				08E62B7729C7037100A5880F /* View */,
+				08E62B7E29C712B200A5880F /* Cell */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		08E62B7729C7037100A5880F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B7329C6FB5800A5880F /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08E62B7829C7038A00A5880F /* SearchResult */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B9729C75CF300A5880F /* Cell */,
+				08E62B9629C75CE900A5880F /* View */,
+			);
+			path = SearchResult;
+			sourceTree = "<group>";
+		};
+		08E62B7E29C712B200A5880F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B7F29C712D400A5880F /* RecentSearchCell.swift */,
+				08E62B8029C712D400A5880F /* RecentSearchCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		08E62B8829C72ED100A5880F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B8929C72EE600A5880F /* SearchResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08E62B8E29C7315E00A5880F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B8F29C7317A00A5880F /* NetworkManager.swift */,
+				08E62B9429C7350900A5880F /* Apis.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		08E62B9129C733E100A5880F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B9229C733F400A5880F /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08E62B9629C75CE900A5880F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B7929C703A600A5880F /* SearchResultView.swift */,
+				08E62B7A29C703A600A5880F /* SearchResultView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08E62B9729C75CF300A5880F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08E62B9829C75D1100A5880F /* SearchListCell.swift */,
+				08E62B9929C75D1100A5880F /* SearchListCell.xib */,
+				08E62B9C29C75D3700A5880F /* SearchResultCell.swift */,
+				08E62B9D29C75D3700A5880F /* SearchResultCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7A274EB4131295F4E6417595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				900FF61C907801B1A3F02CFE /* Pods_AppStore_KAKAOBANK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C22100FA26701B38B45A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B3409481ABA94CFEF80DB10 /* Pods-AppStore_KAKAOBANK.debug.xcconfig */,
+				B98A77730E31B6A2776D803D /* Pods-AppStore_KAKAOBANK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089BA49C29C6C11C00421736 /* AppStore_KAKAOBANK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089BA4B129C6C11E00421736 /* Build configuration list for PBXNativeTarget "AppStore_KAKAOBANK" */;
+			buildPhases = (
+				9A31F43275EF0309EC12CCA2 /* [CP] Check Pods Manifest.lock */,
+				089BA49929C6C11C00421736 /* Sources */,
+				089BA49A29C6C11C00421736 /* Frameworks */,
+				089BA49B29C6C11C00421736 /* Resources */,
+				575A8B8DBBEAF3167E293B62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppStore_KAKAOBANK;
+			productName = AppStore_KAKAOBANK;
+			productReference = 089BA49D29C6C11C00421736 /* AppStore_KAKAOBANK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089BA49529C6C11C00421736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					089BA49C29C6C11C00421736 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 089BA49829C6C11C00421736 /* Build configuration list for PBXProject "AppStore_KAKAOBANK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089BA49429C6C11C00421736;
+			productRefGroup = 089BA49E29C6C11C00421736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089BA49C29C6C11C00421736 /* AppStore_KAKAOBANK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089BA49B29C6C11C00421736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08068C2329CA000B00673E04 /* Pretendard-Light.otf in Resources */,
+				08068C2529CA000B00673E04 /* Pretendard-Bold.otf in Resources */,
+				0876568D29C89D8A00B5C8AF /* DetailView.xib in Resources */,
+				08068C2629CA000B00673E04 /* Pretendard-Thin.otf in Resources */,
+				08068C2429CA000B00673E04 /* Pretendard-ExtraBold.otf in Resources */,
+				08E62B9B29C75D1100A5880F /* SearchListCell.xib in Resources */,
+				08E62B8229C712D400A5880F /* RecentSearchCell.xib in Resources */,
+				08E62B9F29C75D3700A5880F /* SearchResultCell.xib in Resources */,
+				089BA4AD29C6C11E00421736 /* LaunchScreen.storyboard in Resources */,
+				08068C2129CA000B00673E04 /* Pretendard-Black.otf in Resources */,
+				08E62B7C29C703A600A5880F /* SearchResultView.xib in Resources */,
+				08068C2029CA000B00673E04 /* Pretendard-Regular.otf in Resources */,
+				089BA4AA29C6C11E00421736 /* Assets.xcassets in Resources */,
+				089BA4A829C6C11C00421736 /* Main.storyboard in Resources */,
+				08068C2829CA000B00673E04 /* Pretendard-SemiBold.otf in Resources */,
+				08068C2729CA000B00673E04 /* Pretendard-ExtraLight.otf in Resources */,
+				08068C2229CA000B00673E04 /* Pretendard-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		575A8B8DBBEAF3167E293B62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStore_KAKAOBANK/Pods-AppStore_KAKAOBANK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStore_KAKAOBANK/Pods-AppStore_KAKAOBANK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppStore_KAKAOBANK/Pods-AppStore_KAKAOBANK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A31F43275EF0309EC12CCA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppStore_KAKAOBANK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089BA49929C6C11C00421736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E62B8A29C72EE600A5880F /* SearchResultModel.swift in Sources */,
+				08E62B9A29C75D1100A5880F /* SearchListCell.swift in Sources */,
+				08E62B7529C6FB5800A5880F /* SearchView.swift in Sources */,
+				0876568C29C89D8A00B5C8AF /* DetailView.swift in Sources */,
+				08E62B9029C7317A00A5880F /* NetworkManager.swift in Sources */,
+				08E62B9E29C75D3700A5880F /* SearchResultCell.swift in Sources */,
+				089BA4A129C6C11C00421736 /* AppDelegate.swift in Sources */,
+				089BA4A329C6C11C00421736 /* SceneDelegate.swift in Sources */,
+				08E62B7229C6FAE800A5880F /* TabBarMainViewController.swift in Sources */,
+				08E62B9529C7350900A5880F /* Apis.swift in Sources */,
+				08E62B9329C733F400A5880F /* SearchViewModel.swift in Sources */,
+				08E62B8129C712D400A5880F /* RecentSearchCell.swift in Sources */,
+				08E62B7B29C703A600A5880F /* SearchResultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089BA4A629C6C11C00421736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089BA4A729C6C11C00421736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		089BA4AB29C6C11E00421736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089BA4AC29C6C11E00421736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089BA4AF29C6C11E00421736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		089BA4B029C6C11E00421736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089BA4B229C6C11E00421736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3409481ABA94CFEF80DB10 /* Pods-AppStore_KAKAOBANK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85JQGU3JU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppStore_KAKAOBANK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanho.DistributeTest.AppStore-KAKAOBANK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		089BA4B329C6C11E00421736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98A77730E31B6A2776D803D /* Pods-AppStore_KAKAOBANK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85JQGU3JU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppStore_KAKAOBANK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanho.DistributeTest.AppStore-KAKAOBANK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089BA49829C6C11C00421736 /* Build configuration list for PBXProject "AppStore_KAKAOBANK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089BA4AF29C6C11E00421736 /* Debug */,
+				089BA4B029C6C11E00421736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089BA4B129C6C11E00421736 /* Build configuration list for PBXNativeTarget "AppStore_KAKAOBANK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089BA4B229C6C11E00421736 /* Debug */,
+				089BA4B329C6C11E00421736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089BA49529C6C11C00421736 /* Project object */;
+}

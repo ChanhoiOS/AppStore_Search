@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lsG-pS-lZb">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--투데이-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppStore_KAKAOBANK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오뱅크 과제_이찬호" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XD-Uk-HXV">
+                                <rect key="frame" x="85.333333333333329" y="411.66666666666669" width="222.66666666666669" height="29"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5XD-Uk-HXV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bYv-o0-RsX"/>
+                            <constraint firstItem="5XD-Uk-HXV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xgV-5C-sxO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="투데이" image="note.text" catalog="system" id="BDp-aY-R7C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2.2900763358778624" y="-1103.5211267605634"/>
+        </scene>
+        <!--Tab Bar Main View Controller-->
+        <scene sceneID="YW7-Ek-VMe">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarMainViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lsG-pS-lZb" customClass="TabBarMainViewController" customModule="AppStore_KAKAOBANK" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hlr-As-L0S">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qie-qX-0Vt"/>
+                        <segue destination="Ygq-OQ-Zau" kind="relationship" relationship="viewControllers" id="zzx-Cx-WWO"/>
+                        <segue destination="3lm-m7-iS2" kind="relationship" relationship="viewControllers" id="fOq-hv-0x7"/>
+                        <segue destination="dyn-37-PD2" kind="relationship" relationship="viewControllers" id="BId-bX-k1B"/>
+                        <segue destination="r4a-J0-YhA" kind="relationship" relationship="viewControllers" id="vGU-HF-Spd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9L-AK-l2C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-891" y="25"/>
+        </scene>
+        <!--게임-->
+        <scene sceneID="3dv-wZ-seb">
+            <objects>
+                <viewController id="Ygq-OQ-Zau" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u76-p3-64C">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Xqi-p3-1nH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="게임" image="gamecontroller" catalog="system" id="PN4-sw-31h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6WV-vj-GoS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="827" y="-699"/>
+        </scene>
+        <!--앱-->
+        <scene sceneID="fBL-4M-h5C">
+            <objects>
+                <viewController id="3lm-m7-iS2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eZE-qa-WUt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XMG-I8-X8a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="앱" image="app" catalog="system" id="cNV-eX-EB3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YQN-t6-SQx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="827" y="46"/>
+        </scene>
+        <!--Arcade-->
+        <scene sceneID="ZA2-e5-bKN">
+            <objects>
+                <viewController id="dyn-37-PD2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Spp-FQ-sEw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="OZK-SU-Khz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Arcade" image="cloud" catalog="system" id="VWN-gU-EX3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98w-c3-3sI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1411.4503816793892" y="814.78873239436621"/>
+        </scene>
+        <!--Search View-->
+        <scene sceneID="wSZ-ub-NEh">
+            <objects>
+                <viewController storyboardIdentifier="SearchView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uvY-wp-Dw2" customClass="SearchView" customModule="AppStore_KAKAOBANK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ayp-r8-oXE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="B6t-dZ-tdU">
+                                <rect key="frame" x="0.0" y="155" width="393" height="272"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="272" id="sqv-ir-gUC"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fRS-cR-i7j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="B6t-dZ-tdU" firstAttribute="leading" secondItem="fRS-cR-i7j" secondAttribute="leading" id="9lr-hV-aOq"/>
+                            <constraint firstItem="B6t-dZ-tdU" firstAttribute="trailing" secondItem="fRS-cR-i7j" secondAttribute="trailing" id="KX3-0T-NRy"/>
+                            <constraint firstItem="B6t-dZ-tdU" firstAttribute="top" secondItem="fRS-cR-i7j" secondAttribute="top" id="zTZ-Km-3ET"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YBL-wA-HV9"/>
+                    <connections>
+                        <outlet property="tableView" destination="B6t-dZ-tdU" id="vSe-od-ldA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="voK-r8-NSG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475.57251908396944" y="1104.9295774647887"/>
+        </scene>
+        <!--검색-->
+        <scene sceneID="sdW-K0-khA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r4a-J0-YhA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="uFj-Zu-iOf">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <imageReference key="selectedImage" image="magnifyingglass" catalog="system" variableValue="5.5511151231257827e-17"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="po4-DQ-Tc6">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uvY-wp-Dw2" kind="relationship" relationship="rootViewController" id="egh-fg-AI0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDk-Hn-jTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-451.14503816793894" y="1105.6338028169014"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app" catalog="system" width="128" height="114"/>
+        <image name="cloud" catalog="system" width="128" height="87"/>
+        <image name="gamecontroller" catalog="system" width="128" height="79"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="note.text" catalog="system" width="128" height="107"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
