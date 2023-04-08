@@ -18,6 +18,7 @@
 		08068C2829CA000B00673E04 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08068C1F29CA000B00673E04 /* Pretendard-SemiBold.otf */; };
 		0876568C29C89D8A00B5C8AF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0876568A29C89D8A00B5C8AF /* DetailView.swift */; };
 		0876568D29C89D8A00B5C8AF /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0876568B29C89D8A00B5C8AF /* DetailView.xib */; };
+		08953BB329D075BA00FEFA99 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08953BB229D075BA00FEFA99 /* TodayViewController.swift */; };
 		089BA4A129C6C11C00421736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089BA4A029C6C11C00421736 /* AppDelegate.swift */; };
 		089BA4A329C6C11C00421736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089BA4A229C6C11C00421736 /* SceneDelegate.swift */; };
 		089BA4A829C6C11C00421736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089BA4A629C6C11C00421736 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		08068C1F29CA000B00673E04 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		0876568A29C89D8A00B5C8AF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0876568B29C89D8A00B5C8AF /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		08953BB229D075BA00FEFA99 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		089BA49D29C6C11C00421736 /* AppStore_KAKAOBANK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore_KAKAOBANK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		089BA4A029C6C11C00421736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		089BA4A229C6C11C00421736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				089BA4A029C6C11C00421736 /* AppDelegate.swift */,
 				089BA4A229C6C11C00421736 /* SceneDelegate.swift */,
+				08953BB229D075BA00FEFA99 /* TodayViewController.swift */,
 				08552F4729CB2A1600AE542B /* Main */,
 				08E62B8E29C7315E00A5880F /* Network */,
 				08E62B7029C6F9F900A5880F /* Search */,
@@ -412,6 +415,7 @@
 				08E62B9E29C75D3700A5880F /* SearchResultCell.swift in Sources */,
 				089BA4A129C6C11C00421736 /* AppDelegate.swift in Sources */,
 				089BA4A329C6C11C00421736 /* SceneDelegate.swift in Sources */,
+				08953BB329D075BA00FEFA99 /* TodayViewController.swift in Sources */,
 				08E62B7229C6FAE800A5880F /* TabBarMainViewController.swift in Sources */,
 				08E62B9529C7350900A5880F /* Apis.swift in Sources */,
 				08E62B9329C733F400A5880F /* SearchViewModel.swift in Sources */,
